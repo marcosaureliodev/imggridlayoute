@@ -43,6 +43,12 @@ p {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+        grid-template-areas: "a a a a " "b b b b " "c c c c " "d d d d " "e e e e ";
+  }
+}
+
 .item {
   border: 1px solid #1a1a1a;
   background-color: #0b0b0b;

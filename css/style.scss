@@ -20,7 +20,7 @@ img {
 }
 
 h1 {
-  color: #ececec;
+  color : #ececec;
   margin: 8px 0;
 }
 
@@ -56,6 +56,17 @@ p {
       "c c d d "
       "c c e e "
       "c c e e ";
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "a a a a "
+      "b b b b "
+      "c c c c "
+      "d d d d "
+      "e e e e ";
   }
 }
 
